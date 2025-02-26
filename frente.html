@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Olá, mundo!</title>
+    <style>
+        body {
+            background-image: url("fundo.png");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            font-family: arial, sans-serif;
+        }
+
+        .navbar {
+            background-image: url("fundo.png");
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: white !important;
+        }
+
+        .navbar-light .navbar-brand {
+            color: white !important;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: justify;
+            flex-wrap: wrap;
+            padding: 20px;
+            color: white;
+        }
+
+        .texto {
+            margin-right: 20px;
+            color: white;
+            text-align: center;
+            flex: 1 1 100%;
+        }
+
+        .texto p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .rounded-circle {
+            width: 100%;
+            max-width: 400px;
+            margin-top: 20px;
+            animation: zoomIn 5s ease-in-out infinite;
+            object-fit: cover;
+            border: 3px solid white;
+        }
+
+        
+        
+
+        @keyframes zoomIn {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        strong {
+            font-size: 2rem;
+        }
+
+        
+        @media (max-width: 768px) {
+            .texto {
+                margin-right: 0;
+                text-align: center;
+            }
+
+            .texto p {
+                font-size: 1rem;
+            }
+
+            .rounded-circle {
+                max-width: 250px;
+            }
+        }
+
+
+        @media (max-width: 480px) {
+            .texto p {
+                font-size: 0.9rem;
+            }
+
+            .rounded-circle {
+                max-width: 200px;
+            }
+        }
+
+        .footer {
+          color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+            }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="frente.html">LENTES DO MAR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="novagalerrias.html">Galeria <span class="sr-only">(Página atual)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="fundação.html">Fundação</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="saibamais.html">Contatos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="texto">
+            <p><strong>LENTES DO MAR</strong></p>
+            <p>Oi, sou Klayves Neri, criador da Lentes do Mar, uma iniciativa que surgiu da minha experiência como piloto de lancha e mergulhador no Parracho de Rio do Fogo, no Rio Grande do Norte. Após anos imerso nesse paraíso, percebi que havia uma maneira de capturar a beleza subaquática de forma única.</p>
+            <p>A Lentes do Mar não é uma empresa convencional, mas sim um trabalho pessoal, focado em registrar imagens autênticas e impressionantes debaixo d'água. A proposta é simples: criar fotos que mostrem o mar em sua essência, com qualidade e um olhar diferenciado. Cada sessão fotográfica é um momento único, com foco em capturar a verdadeira magia do ambiente marinho.</p>
+            <p>Se você busca fotos autênticas e bem-feitas, com um olhar especializado sobre o mundo subaquático, você está no lugar certo.</p>
+        </div>
+        <img src="logo .jpg " alt="Imagem" class="rounded-circle">
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Lentes do Mar - Todos os direitos reservados</p>
+    </div>
+
+    <!-- JavaScript (Opcional) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
